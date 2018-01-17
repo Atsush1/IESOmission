@@ -19,7 +19,7 @@ $pdo	=	new PDO($dsn,$user,$dbpw);
 
 //ログインページへのボタンが押されたとき
 if (isset($_POST["login"])){
-	header("Location: crane_game_main.php");//入力フォームに何も書いていない場合入力フォーム画面に戻る
+	header("Location: crane_game_main2.php");//入力フォームに何も書いていない場合入力フォーム画面に戻る
 	exit();
 }
 
